@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { useLocation, NavLink } from "react-router-dom";
 import { Nav } from "react-bootstrap";
-import sideBarImage1 from "assets/img/sidebar-1.jpg";
 
 function Sidebar({ color, image, routes }) {
   const location = useLocation();
@@ -10,12 +9,6 @@ function Sidebar({ color, image, routes }) {
   };
   return (
     <div className="sidebar" data-image={image} data-color={color}>
-      <div
-        className="sidebar-background"
-        style={{
-          backgroundImage: "url(" + 'imageassets/img/sidebar-1.jpg' + ")",
-        }}
-      />
       <div className="sidebar-wrapper">
         <div className="logo d-flex align-items-center justify-content-start">
           <a
@@ -31,14 +24,7 @@ function Sidebar({ color, image, routes }) {
           {routes.map((prop, key) => {
             if (!prop.redirect)
               return (
-                <li
-                  className={
-                    prop.upgrade
-                      ? "active active-pro"
-                      : activeRoute(prop.layout + prop.path)
-                  }
-                  key={key}
-                >
+                <li>
                   <NavLink
                     to={prop.layout + prop.path}
                     className="nav-link"

@@ -1,11 +1,10 @@
-/*     General overwrite     */
 body,
 .wrapper{
     min-height: 100vh;
     position: relative;
 }
 a{
-  color: $info-color;
+  color: #000;
 
   &:hover, &:focus{
      color: $info-states-color;
