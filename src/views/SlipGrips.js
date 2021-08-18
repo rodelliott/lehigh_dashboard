@@ -32,7 +32,7 @@ function SlipGrips() {
                   <Col xs="9">
                   <div className="numbers">
                       <p className="card-category">SlipGrips</p>
-                      <Card.Title as="h4">Brand Standards<br /><a href="https://drive.google.com/file/d/1KFZqtV-5hjwAehIlKqlXeelVe9PXt3ZQ/view?usp=sharing" target="_blank">PDF</a></Card.Title>
+                      <Card.Title as="h4">Brand Standards<br /><a href="https://github.com/rodelliott/lehigh_dashboard/blob/master/src/assets/pdfs/SlipGrips_BrandStandards.pdf?raw=true" target="_blank">PDF</a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -52,8 +52,8 @@ function SlipGrips() {
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
-                      <p className="card-category">Current Promo 8/4 - 8/18</p>
-                      <Card.Title as="h4">Reebok Work + AirPods<br /><a href="https://pages.slipgrips.com/reebok-work-giveaway" target="_blank">FORM</a></Card.Title>
+                      <p className="card-category">Current Promo - August</p>
+                      <Card.Title as="h4">Back To School<br /><a href="https://pages.slipgrips.com/giveaway" target="_blank">FORM</a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -133,7 +133,7 @@ function SlipGrips() {
                           11.1,
                           16.3,
                           10.5,
-                          3.1,
+                          4.7,
                           0,
                           0,
                           0,
@@ -168,8 +168,8 @@ function SlipGrips() {
               <Card.Footer>
                 <div className="stats">
                   <i className="fas fa-circle text-info"></i> 2020 Total Sales: $83,520<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $90,886<br />
-                  <i className="fas fa-check text-success"></i> Last updated 8/12/21 @ 4:16 p.m. EST
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $91,500<br />
+                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
                 </div>
               </Card.Footer>
             </Card>
@@ -298,7 +298,7 @@ function SlipGrips() {
               </Card.Body>
               <Card.Footer>
                 <div className="stats">
-                  <i className="fas fa-check text-success"></i> Last updated 8/13/21 @ 9:00 a.m. EST
+                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
                 </div>
               </Card.Footer>
             </Card>

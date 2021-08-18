@@ -31,8 +31,8 @@ function SafetyShoes() {
                   </Col>
                   <Col xs="9">
                   <div className="numbers">
-                      <p className="card-category">Lehigh Safety Shoes</p>
-                      <Card.Title as="h4">Brand Standards<br /><a href="https://drive.google.com/file/d/1KFZqtV-5hjwAehIlKqlXeelVe9PXt3ZQ/view?usp=sharing" target="_blank">PDF</a></Card.Title>
+                  <p className="card-category">Current Promo 8/18 - 9/15</p>
+                      <Card.Title as="h4">Terra + Yeti<br /><a href="https://pages.lehighsafetyshoes.com/terra-giveaway" target="_blank">FORM</a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -52,8 +52,8 @@ function SafetyShoes() {
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
-                      <p className="card-category">Current Promo 8/4 - 8/18</p>
-                      <Card.Title as="h4">Reebok Work + AirPods<br /><a href="https://pages.lehighsafetyshoes.com/reebok-work-giveaway" target="_blank">FORM</a></Card.Title>
+                      <p className="card-category">Title</p>
+                      <Card.Title as="h4">Subtitle<br /><a href="https://pages.lehighsafetyshoes.com/reebok-work-giveaway" target="_blank">LINK</a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -73,8 +73,8 @@ function SafetyShoes() {
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
-                      <p className="card-category">Next Promo 8/18 - 9/15</p>
-                      <Card.Title as="h4">Terra Promo<br /><a href="#" target="_blank">Coming Soon</a></Card.Title>
+                    <p className="card-category">Title</p>
+                      <Card.Title as="h4">Subtitle<br /><a href="https://pages.lehighsafetyshoes.com/reebok-work-giveaway" target="_blank">LINK</a></Card.Title>
                     </div>
                   </Col>
                 </Row>

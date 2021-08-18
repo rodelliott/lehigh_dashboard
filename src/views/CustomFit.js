@@ -32,7 +32,7 @@ function CustomFit() {
                   <Col xs="9">
                   <div className="numbers">
                       <p className="card-category">Lehigh CustomFit</p>
-                      <Card.Title as="h4">Brand Standards<br /><a href="https://drive.google.com/file/d/1KFZqtV-5hjwAehIlKqlXeelVe9PXt3ZQ/view?usp=sharing" target="_blank">PDF</a></Card.Title>
+                      <Card.Title as="h4">Brand Standards<br /><a href="https://github.com/rodelliott/lehigh_dashboard/blob/master/src/assets/pdfs/Lehigh%20CustomFit%20Brand%20Guidelines.pdf?raw=true" target="_blank">PDF</a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -47,13 +47,13 @@ function CustomFit() {
                 <Row>
                   <Col xs="3">
                     <div className="icon-big text-center icon-warning">
-                      <i className="fas fa-percent text-success"></i>
+                      <i className="fas fa-scroll text-primary"></i>
                     </div>
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
-                      <p className="card-category">Current Promo 8/4 - 8/18</p>
-                      <Card.Title as="h4">Reebok Work + AirPods<br /><a href="https://pages.customfit.me/reebok-work-giveaway" target="_blank">FORM</a></Card.Title>
+                      <p className="card-category">Shoe Angel</p>
+                      <Card.Title as="h4">Brand Standards<br /><a href="https://github.com/rodelliott/lehigh_dashboard/blob/master/src/assets/pdfs/ShoeAngel_BrandStandards.pdf?raw=true" target="_blank">PDF</a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -73,8 +73,8 @@ function CustomFit() {
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
-                      <p className="card-category">Next Promo 8/18 - 9/15</p>
-                      <Card.Title as="h4">Terra Promo<br /><a href="#" target="_blank">Coming Soon</a></Card.Title>
+                      <p className="card-category">Current Promo 8/18 - 9/15</p>
+                      <Card.Title as="h4">Terra + Yeti<br /><a href="https://pages.customfit.me/terra-giveaway" target="_blank">FORM</a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -262,7 +262,7 @@ function CustomFit() {
           <Col md="3">
             <Card>
               <Card.Header>
-              <i class="fas fa-2x fa-envelope-open-text text-success"></i>
+              <i class="fas fa-2x fa-envelope-open-text text-primary"></i>
                 <Card.Title as="h4">Shoe Angel Open Rates</Card.Title>
                 <p className="card-category">Campaign: 2021-0812-sa-reebok</p>
               </Card.Header>

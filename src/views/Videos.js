@@ -19,188 +19,12 @@ function Dashboard() {
   return (
     <>
       <Container fluid>
-        <Row>
-          <Col lg="3" sm="6">
-            <Card className="card-stats">
-              <Card.Body>
-                <Row>
-                  <Col xs="5">
-                    <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-icon nc-notes text-warning"></i>
-                    </div>
-                  </Col>
-                  <Col xs="7">
-                    <div className="numbers">
-                      <p className="card-category">Sales Rep Request</p>
-                      <Card.Title as="h4">Go <a href="https://lehighcustomfit.typeform.com/to/VlMDWp74" target="_blank">here</a>. Fill out the form. Rejoice.</Card.Title>
-                    </div>
-                  </Col>
-                </Row>
-              </Card.Body>
-              <Card.Footer>
-              </Card.Footer>
-            </Card>
-          </Col>
-          <Col lg="3" sm="6">
-            <Card className="card-stats">
-              <Card.Body>
-                <Row>
-                  <Col xs="5">
-                    <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-light-3 text-success"></i>
-                    </div>
-                  </Col>
-                  <Col xs="7">
-                    <div className="numbers">
-                      <p className="card-category">Revenue</p>
-                      <Card.Title as="h4">$ 1,345</Card.Title>
-                    </div>
-                  </Col>
-                </Row>
-              </Card.Body>
-              <Card.Footer>
-              </Card.Footer>
-            </Card>
-          </Col>
-          <Col lg="3" sm="6">
-            <Card className="card-stats">
-              <Card.Body>
-                <Row>
-                  <Col xs="5">
-                    <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-favourite-28 text-primary"></i>
-                    </div>
-                  </Col>
-                  <Col xs="7">
-                    <div className="numbers">
-                      <p className="card-category">Followers</p>
-                      <Card.Title as="h4">+45K</Card.Title>
-                    </div>
-                  </Col>
-                </Row>
-              </Card.Body>
-              <Card.Footer>
-              </Card.Footer>
-            </Card>
-          </Col>
-          <Col lg="3" sm="6">
-            <Card className="card-stats">
-              <Card.Body>
-                <Row>
-                  <Col xs="5">
-                    <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-favourite-28 text-primary"></i>
-                    </div>
-                  </Col>
-                  <Col xs="7">
-                    <div className="numbers">
-                      <p className="card-category">Followers</p>
-                      <Card.Title as="h4">+45K</Card.Title>
-                    </div>
-                  </Col>
-                </Row>
-              </Card.Body>
-              <Card.Footer>
-              </Card.Footer>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
-          <Col md="12">
-            <Card>
-              <Card.Header>
-                <Card.Title as="h4">CustomFit Sales</Card.Title>
-                <p className="card-category">Values below are in millions</p>
-              </Card.Header>
-              <Card.Body>
-                <div className="ct-chart" id="chartActivity">
-                  <ChartistGraph
-                    data={{
-                      labels: [
-                        "Jan",
-                        "Feb",
-                        "Mar",
-                        "Apr",
-                        "May",
-                        "Jun",
-                        "Jul",
-                        "Aug",
-                        "Sep",
-                        "Oct",
-                        "Nov",
-                        "Dec",
-                      ],
-                      series: [
-                        [
-                          5.052,
-                          4.327,
-                          3.559,
-                          3.152,
-                          3.087,
-                          3.066,
-                          3.080,
-                          3.218,
-                          0,
-                          0,
-                          0,
-                          0,
-                        ],
-                        [
-                          5.453,
-                          4.802,
-                          5.740,
-                          4.329,
-                          3.865,
-                          3.849,
-                          3.729,
-                          1.451,
-                          0,
-                          0,
-                          0,
-                          0,
-                        ],
-                      ],
-                    }}
-                    type="Bar"
-                    options={{
-                      seriesBarDistance: 12,
-                      axisX: {
-                        showGrid: true,
-                      },
-                      height: "250px",
-                    }}
-                    responsiveOptions={[
-                      [
-                        "screen and (max-width: 640px)",
-                        {
-                          seriesBarDistance: 5,
-                          axisX: {
-                            labelInterpolationFnc: function (value) {
-                              return value[0];
-                            },
-                          },
-                        },
-                      ],
-                    ]}
-                  />
-                </div>
-              </Card.Body>
-              <Card.Footer>
-                <div className="stats">
-                  <i className="fas fa-circle text-info"></i> 2020 YTD Sales: $26,594,003<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $33,272,065<br />
-                  <i className="fas fa-check text-success"></i> Last updated 8/11/21
-                </div>
-              </Card.Footer>
-            </Card>
-          </Col>
-          </Row>
           <Row>
           <Col md="6">
             <Card className="card-tasks">
               <Card.Header>
-                <Card.Title as="h4">Future Upgrades</Card.Title>
-                <p className="card-category">Front-End / Back-End Development</p>
+                <Card.Title as="h4">CustomFit Videos</Card.Title>
+                <p className="card-category"><i className="fab fa-youtube text-success"></i> <a href="https://www.youtube.com/channel/UCQWezX6E3wR8DxYLz-W3IYg">CF YouTube Channel Link</a></p>
               </Card.Header>
               <Card.Body>
                 <div className="table-full-width">
@@ -208,188 +32,137 @@ function Dashboard() {
                     <tbody>
                       <tr>
                         <td>
-                        <i className="fas fa-circle text-success"></i> CAT Landing style changes
+                        <a href="https://drive.google.com/file/d/1QKlnGRT3W2vR8LfL2Rlmj5dYqAHdJhsc/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> Meet Albert - Aetrex Albert Intro</a>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <i className="fas fa-circle text-warning"></i> Up-sell section in CF review cart
+                        <a href="https://drive.google.com/file/d/1mjYWEMbpefoQ1J8VSB_LIL3gvfpjasFp/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> Your Order's Journey</a>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <i className="fas fa-circle text-danger"></i> New CustomFit Header / Menu on after login pages
+                        <a href="https://drive.google.com/file/d/10l0P6anG1ZLGaQMXjGmLyky8pnvivlFh/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> Managed Safety Footwear Program</a>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <i className="fab fa-paypal text-danger"></i> PayPal Integration
+                        <a href="https://drive.google.com/file/d/1njl1KQgfwM_VurC_qxSwJ0Pjk3ycIBTy/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> CustomFit Safety Pledge</a>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <i className="fab fa-apple text-danger"></i> Apple Pay Integration
+                        <a href="https://drive.google.com/file/d/1h1sgAGf4QAC4s-MfbsiNnIzMM98EDbVk/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> Command Center - Add/Edit/Remove Employees</a>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <i className="fab fa-google text-danger"></i> Google Pay Integration
+                        <a href="https://drive.google.com/file/d/11WWWYpFhm_Zmi8Y_mEc1Unr3Yq2i3lIo/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> Command Center - Employee Eligibility</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1GLs9RTXG0DVdpQjWqvouaAxrp8x0uKJU/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> Command Center - Track Order Returns</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1FAPhNrOjqWipAUfpiosR2pnlgN8BItqt/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> CustomFit - Easy Checkout Help</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1ViYTGLkpJloQVbswwzZetuY45W9TeEv_/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> CustomFit - How To Select A Style</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href="https://drive.google.com/file/d/19LROJK6yrs1w5bmQokJyO9a_eof9dA94/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> CustomFit - Easy Checkout Help (Spanish)</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1XTFbujBBOp2JLDdXhPGGpS4Ntu2g6-Zc/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> CustomFit - How To Select A Style (Spanish)</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1mZIapNjIP4sPq7lRdl5EMRHqEAHViCZO/view?usp=sharing"><i className="fas fa-arrow-down text-success"></i> Managed Safety Footwear Program (Fastenal)</a>
                         </td>
                       </tr>
                     </tbody>
                   </Table>
                 </div>
               </Card.Body>
-              <Card.Footer>
-                <div className="stats">
-                  <i className="fas fa-circle text-success"></i> Final Testing / Go Live<br />
-                  <i className="fas fa-circle text-warning"></i> In Development<br />
-                  <i className="fas fa-circle text-danger"></i> Backlog<br />
-                </div>
-              </Card.Footer>
             </Card>
           </Col>
-          <Col md="3">
-            <Card>
+          <Col md="6">
+            <Card className="card-tasks">
               <Card.Header>
-                <Card.Title as="h4">Order Volume (MTD)</Card.Title>
-                <p className="card-category">Values below are in thousands</p>
+                <Card.Title as="h4">Brand Videos</Card.Title>
+                <p className="card-category"><i className="fas fa-video text-success"></i> Videos From Vendors (ZIP File Downloads)</p>
               </Card.Header>
               <Card.Body>
-              <div className="ct-chart" id="chartActivity">
-                  <ChartistGraph
-                    data={{
-                      labels: [
-                        "MTD",
-                      ],
-                      series: [
-                        [
-                          10.5,
-                        ],
-                        [
-                          13.1,
-                        ],
-                      ],
-                    }}
-                    type="Bar"
-                    options={{
-                      seriesBarDistance: 12,
-                      axisX: {
-                        showGrid: true,
-                      },
-                      height: "250px",
-                    }}
-                    responsiveOptions={[
-                      [
-                        "screen and (max-width: 640px)",
-                        {
-                          seriesBarDistance: 5,
-                          axisX: {
-                            labelInterpolationFnc: function (value) {
-                              return value[0];
-                            },
-                          },
-                        },
-                      ],
-                    ]}
-                  />
-                </div>
-              </Card.Body>
-              <Card.Footer>
-              <div className="stats">
-                  <i className="fas fa-circle text-info"></i> 2020 Orders: <br />
-                  <i className="fas fa-circle text-danger"></i> 2021 Orders: <br />
-                  <i className="fas fa-check text-success"></i> Last updated 8/11/21
-                </div>
-              </Card.Footer>
-            </Card>
-          </Col>
-          <Col md="3">
-            <Card>
-              <Card.Header>
-                <Card.Title as="h4">Order Volume (YTD)</Card.Title>
-                <p className="card-category">Values below are in thousands</p>
-              </Card.Header>
-              <Card.Body>
-              <div className="ct-chart" id="chartActivity">
-                  <ChartistGraph
-                    data={{
-                      labels: [
-                        "YTD",
-                      ],
-                      series: [
-                        [
-                          244.4,
-                        ],
-                        [
-                          297.6,
-                        ],
-                      ],
-                    }}
-                    type="Bar"
-                    options={{
-                      seriesBarDistance: 12,
-                      axisX: {
-                        showGrid: true,
-                      },
-                      height: "250px",
-                    }}
-                    responsiveOptions={[
-                      [
-                        "screen and (max-width: 640px)",
-                        {
-                          seriesBarDistance: 5,
-                          axisX: {
-                            labelInterpolationFnc: function (value) {
-                              return value[0];
-                            },
-                          },
-                        },
-                      ],
-                    ]}
-                  />
-                </div>
-              </Card.Body>
-              <Card.Footer>
-              <div className="stats">
-                  <i className="fas fa-circle text-info"></i> 2020 Orders: <br />
-                  <i className="fas fa-circle text-danger"></i> 2021 Orders: <br />
-                  <i className="fas fa-check text-success"></i> Last updated 8/11/21
-                </div>
-              </Card.Footer>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
-          <Col md="4">
-            <Card>
-              <Card.Header>
-                <Card.Title as="h4">Email Statistics</Card.Title>
-                <p className="card-category">Last Campaign Performance</p>
-              </Card.Header>
-              <Card.Body>
-                <div
-                  className="ct-chart ct-perfect-fourth"
-                  id="chartPreferences"
-                >
-                  <ChartistGraph
-                    data={{
-                      labels: ["40%", "20%", "40%"],
-                      series: [40, 20, 40],
-                    }}
-                    type="Pie"
-                  />
-                </div>
-                <div className="legend">
-                  <i className="fas fa-circle text-info"></i>
-                  Open <i className="fas fa-circle text-danger"></i>
-                  Bounce <i className="fas fa-circle text-warning"></i>
-                  Unsubscribe
-                </div>
-                <hr></hr>
-                <div className="stats">
-                  <i className="far fa-clock"></i>
-                  Campaign sent 2 days ago
+                <div className="table-full-width">
+                  <Table>
+                    <tbody>
+                      <tr>
+                        <td>
+                        <a href=""><i className="fas fa-arrow-down text-success"></i> Brand A</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href=""><i className="fas fa-arrow-down text-success"></i> Brand B</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href=""><i className="fas fa-arrow-down text-success"></i> Brand C</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href=""><i className="fas fa-arrow-down text-success"></i> Brand D</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href=""><i className="fas fa-arrow-down text-success"></i> Brand E</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href=""><i className="fas fa-arrow-down text-success"></i> Brand F</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href=""><i className="fas fa-arrow-down text-success"></i> Brand G</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href=""><i className="fas fa-arrow-down text-success"></i> Brand H</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href=""><i className="fas fa-arrow-down text-success"></i> Brand I</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href=""><i className="fas fa-arrow-down text-success"></i> Brand J</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href=""><i className="fas fa-arrow-down text-success"></i> Brand K</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </Table>
                 </div>
               </Card.Body>
             </Card>

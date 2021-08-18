@@ -32,7 +32,7 @@ function Outfitters() {
                   <Col xs="9">
                   <div className="numbers">
                       <p className="card-category">Lehigh Outfitters</p>
-                      <Card.Title as="h4">Brand Standards<br /><a href="https://drive.google.com/file/d/1KFZqtV-5hjwAehIlKqlXeelVe9PXt3ZQ/view?usp=sharing" target="_blank">PDF</a></Card.Title>
+                      <Card.Title as="h4">Brand Standards<br /><a href="https://github.com/rodelliott/lehigh_dashboard/blob/master/src/assets/pdfs/LehighOutfitters_BrandStandards.pdf?raw=true" target="_blank">PDF</a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -52,8 +52,8 @@ function Outfitters() {
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
-                      <p className="card-category">Current Promo 8/4 - 8/18</p>
-                      <Card.Title as="h4">Reebok Work + AirPods<br /><a href="https://pages.lehighoutfitters.com/reebok-work-giveaway" target="_blank">FORM</a></Card.Title>
+                      <p className="card-category">Current Promo 8/18 - 9/15</p>
+                      <Card.Title as="h4">Terra + Yeti<br /><a href="https://pages.lehighoutfitters.com/terra-giveaway" target="_blank">FORM</a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -73,8 +73,8 @@ function Outfitters() {
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
-                      <p className="card-category">Next Promo 8/18 - 9/15</p>
-                      <Card.Title as="h4">Terra Promo<br /><a href="#" target="_blank">Coming Soon</a></Card.Title>
+                      <p className="card-category">Next Promo</p>
+                      <Card.Title as="h4">Only Janelle Knows<br /><a href="#" target="_blank">Coming Soon</a></Card.Title>
                     </div>
                   </Col>
                 </Row>

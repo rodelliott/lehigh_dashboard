@@ -9,6 +9,7 @@ import Icons from "views/Icons.js";
 import BrandLogos from "views/BrandLogos.js";
 import Videos from "views/Videos.js";
 import Notifications from "views/Notifications.js";
+import Lifestyle from "views/Lifestyle.js";
 
 const dashboardRoutes = [
   {
@@ -48,7 +49,7 @@ const dashboardRoutes = [
   },
   {
     path: "/videos",
-    name: "Videos",
+    name: "Brand Videos",
     icon: "nc-icon nc-cctv",
     component: Videos,
     layout: "/admin",
@@ -67,6 +68,13 @@ const dashboardRoutes = [
     component: Typography,
     layout: "/admin",
   },*/
+  {
+    path: "/lifestyle",
+    name: "Lifestyle",
+    icon: "nc-icon nc-grid-45",
+    component: Lifestyle,
+    layout: "/admin",
+  },
   {
     path: "/icons",
     name: "Icons",
