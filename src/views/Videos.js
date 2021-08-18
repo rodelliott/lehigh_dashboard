@@ -21,14 +21,14 @@ function Dashboard() {
       <Container fluid>
           <Row>
           <Col md="6">
-            <Card className="card-tasks">
+            <Card className="strpied-tabled-with-hover">
               <Card.Header>
                 <Card.Title as="h4">CustomFit Videos</Card.Title>
                 <p className="card-category"><i className="fab fa-youtube text-success"></i> <a href="https://www.youtube.com/channel/UCQWezX6E3wR8DxYLz-W3IYg">CF YouTube Channel Link</a></p>
               </Card.Header>
               <Card.Body>
                 <div className="table-full-width">
-                  <Table>
+                  <Table className="table-hover table-striped">
                     <tbody>
                       <tr>
                         <td>
@@ -97,14 +97,14 @@ function Dashboard() {
             </Card>
           </Col>
           <Col md="6">
-            <Card className="card-tasks">
+            <Card className="strpied-tabled-with-hover">
               <Card.Header>
                 <Card.Title as="h4">Brand Videos</Card.Title>
                 <p className="card-category"><i className="fas fa-video text-success"></i> Videos From Vendors (ZIP File Downloads)</p>
               </Card.Header>
               <Card.Body>
                 <div className="table-full-width">
-                  <Table>
+                  <Table className="table-hover table-striped">
                     <tbody>
                       <tr>
                         <td>
@@ -159,6 +159,11 @@ function Dashboard() {
                       <tr>
                         <td>
                         <a href=""><i className="fas fa-arrow-down text-success"></i> Brand K</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <a href="">&nbsp;</a>
                         </td>
                       </tr>
                     </tbody>

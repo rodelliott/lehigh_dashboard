@@ -4,7 +4,6 @@ import SafetyShoes from "views/SafetyShoes.js";
 import SlipGrips from "views/SlipGrips.js";
 import UserProfile from "views/UserProfile.js";
 import TableList from "views/TableList.js";
-import Typography from "views/Typography.js";
 import Icons from "views/Icons.js";
 import BrandLogos from "views/BrandLogos.js";
 import Videos from "views/Videos.js";
@@ -54,20 +53,6 @@ const dashboardRoutes = [
     component: Videos,
     layout: "/admin",
   },
-  /*{
-    path: "/table",
-    name: "Table List",
-    icon: "nc-icon nc-notes",
-    component: TableList,
-    layout: "/admin",
-  },
-  {
-    path: "/typography",
-    name: "Typography",
-    icon: "nc-icon nc-paper-2",
-    component: Typography,
-    layout: "/admin",
-  },*/
   {
     path: "/lifestyle",
     name: "Lifestyle",
@@ -75,13 +60,13 @@ const dashboardRoutes = [
     component: Lifestyle,
     layout: "/admin",
   },
-  {
+  /*{
     path: "/icons",
     name: "Icons",
     icon: "nc-icon nc-atom",
     component: Icons,
     layout: "/admin",
-  },
+  },*/
   {
     path: "/notifications",
     name: "Notifications",
