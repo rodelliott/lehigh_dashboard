@@ -135,7 +135,7 @@ function SafetyShoes() {
                           65.4,
                           60.8,
                           71.2,
-                          27.6,
+                          40.1,
                           0,
                           0,
                           0,
@@ -170,8 +170,8 @@ function SafetyShoes() {
               <Card.Footer>
                 <div className="stats">
                   <i className="fas fa-circle text-info"></i> 2020 Total Sales: $481,207<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $486,287<br />
-                  <i className="fas fa-check text-success"></i> Last updated 8/12/21 @ 4:16 p.m. EST
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $498,700<br />
+                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
                 </div>
               </Card.Footer>
             </Card>
@@ -296,7 +296,7 @@ function SafetyShoes() {
               </Card.Body>
               <Card.Footer>
                 <div className="stats">
-                  <i className="fas fa-check text-success"></i> Last updated 8/13/21 @ 9:00 a.m. EST
+                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
                 </div>
               </Card.Footer>
             </Card>

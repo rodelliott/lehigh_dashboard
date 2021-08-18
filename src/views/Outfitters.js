@@ -135,7 +135,7 @@ function Outfitters() {
                           37.6,
                           43.7,
                           40.2,
-                          17.0,
+                          23.4,
                           0,
                           0,
                           0,
@@ -170,8 +170,8 @@ function Outfitters() {
               <Card.Footer>
                 <div className="stats">
                   <i className="fas fa-circle text-info"></i> 2020 Total Sales: $519,385<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $300,878<br />
-                  <i className="fas fa-check text-success"></i> Last updated 8/12/21 @ 4:16 p.m. EST
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $307,300<br />
+                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
                 </div>
               </Card.Footer>
             </Card>
@@ -298,7 +298,7 @@ function Outfitters() {
               </Card.Body>
               <Card.Footer>
                 <div className="stats">
-                  <i className="fas fa-check text-success"></i> Last updated 8/13/21 @ 9:00 a.m. EST
+                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
                 </div>
               </Card.Footer>
             </Card>
