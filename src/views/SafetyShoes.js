@@ -31,7 +31,7 @@ function SafetyShoes() {
                   </Col>
                   <Col xs="9">
                   <div className="numbers">
-                  <p className="card-category">Current Promo 8/18 - 9/15</p>
+                  <p className="card-category">Current Promo 8/26 - 9/23</p>
                       <Card.Title as="h4">Terra + Yeti<br /><a href="https://pages.lehighsafetyshoes.com/terra-giveaway" target="_blank">FORM</a></Card.Title>
                     </div>
                   </Col>
@@ -135,8 +135,8 @@ function SafetyShoes() {
                           65.4,
                           60.8,
                           71.2,
-                          40.1,
-                          0,
+                          69.8,
+                          11.4,
                           0,
                           0,
                           0,
@@ -170,8 +170,8 @@ function SafetyShoes() {
               <Card.Footer>
                 <div className="stats">
                   <i className="fas fa-circle text-info"></i> 2020 Total Sales: $481,207<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $498,700<br />
-                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $539,805<br />
+                  <i className="fas fa-check text-success"></i> Last updated 9/9/21 @ 11:30 p.m. EST
                 </div>
               </Card.Footer>
             </Card>
@@ -183,7 +183,7 @@ function SafetyShoes() {
               <Card.Header>
               <i class="fas fa-2x fa-envelope-open-text text-dark"></i>
                 <Card.Title as="h4">Email Open Rates</Card.Title>
-                <p className="card-category">Campaign: 2021-0812-lss-reebok</p>
+                <p className="card-category">Campaign: 2021-0909-lss-twistedx</p>
               </Card.Header>
               <Card.Body>
                 <div
@@ -192,17 +192,17 @@ function SafetyShoes() {
                 >
                   <ChartistGraph
                     data={{
-                      labels: ["72.5%", "27.5%"],
-                      series: [1396, 383],
+                      labels: ["72.9%", "27.1%"],
+                      series: [1318, 357],
                     }}
                     type="Pie"
                   />
                 </div>
                 <div className="stats">
-                    <i className="fas fa-circle text-info"></i> Total Sends: 1,396<br />
-                  <i className="fas fa-circle text-danger"></i> Total Opens: 383<br />
-                  <i className="fas fa-circle text-warning"></i> Click-Through Rate: 8.1%<br />
-                  <i className="far fa-clock text-success"></i> Campaign sent 8/12
+                    <i className="fas fa-circle text-info"></i> Total Sends: 1,318<br />
+                  <i className="fas fa-circle text-danger"></i> Unique Opens: 357<br />
+                  <i className="fas fa-circle text-warning"></i> Click-Through Rate: 12.3%<br />
+                  <i className="far fa-clock text-success"></i> Campaign sent 9/9
                 </div>
               </Card.Body>
             </Card>
@@ -268,35 +268,35 @@ function SafetyShoes() {
                   <tbody>
                     <tr>
                         <td>1</td>
-                        <td><a href="https://www.lehighsafetyshoes.com/RB4040.html">RB4040</a></td>
-                        <td><a href="https://www.lehighsafetyshoes.com/reebok/">Reebok Work</a></td>
+                        <td><a href="https://www.lehighsafetyshoes.com/5040.html">5040</a></td>
+                        <td><a href="https://www.lehighsafetyshoes.com/lehigh-safety-shoes/">Lehigh Safety Shoes</a></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td><a href="https://www.lehighsafetyshoes.com/IA0195.html">IA0195</a></td>
-                        <td><a href="https://www.lehighsafetyshoes.com/iron-age/">Iron Age</a></td>
+                        <td><a href="https://www.lehighsafetyshoes.com/3149.html">3149</a></td>
+                        <td><a href="https://www.lehighsafetyshoes.com/lehigh-safety-shoes/">Lehigh Safety Shoes</a></td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td><a href="https://www.lehighsafetyshoes.com/SE4570.html">SE4570</a></td>
-                        <td><a href="https://www.lehighsafetyshoes.com/justin-work/">Justin Original</a></td>
+                        <td><a href="https://www.lehighsafetyshoes.com/XHY866.html">XHY866</a></td>
+                        <td><a href="https://www.lehighsafetyshoes.com/michelin/">Michelin</a></td>
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td><a href="https://www.lehighsafetyshoes.com/52562.html">52562</a></td>
-                        <td><a href="https://www.lehighsafetyshoes.com/timberland-pro/">Timberland PRO</a></td>
+                        <td><a href="https://www.lehighsafetyshoes.com/CMO3460.html">CMO3460</a></td>
+                        <td><a href="https://www.lehighsafetyshoes.com/carhartt/">Carhartt</a></td>
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td><a href="https://www.lehighsafetyshoes.com/RKK0347.html">RKK0347</a></td>
-                        <td><a href="https://www.lehighsafetyshoes.com/rocky/">Rocky</a></td>
+                        <td><a href="https://www.lehighsafetyshoes.com/N1435.html">N1435</a></td>
+                        <td><a href="https://www.lehighsafetyshoes.com/nautilus/">Nautilus</a></td>
                     </tr>
                   </tbody>
                 </Table>
               </Card.Body>
               <Card.Footer>
                 <div className="stats">
-                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
+                  <i className="fas fa-check text-success"></i> Last updated 8/26/21 @ 10:30 p.m. EST
                 </div>
               </Card.Footer>
             </Card>

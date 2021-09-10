@@ -9,6 +9,7 @@ import BrandLogos from "views/BrandLogos.js";
 import Videos from "views/Videos.js";
 import Notifications from "views/Notifications.js";
 import Lifestyle from "views/Lifestyle.js";
+import EmailTrends from "views/EmailTrends.js";
 
 const dashboardRoutes = [
   {
@@ -37,6 +38,13 @@ const dashboardRoutes = [
     name: "SlipGrips",
     icon: "nc-icon nc-chart-pie-36",
     component: SlipGrips,
+    layout: "/admin",
+  },
+  {
+    path: "/emailtrends",
+    name: "Email Trends",
+    icon: "nc-icon nc-bulb-63",
+    component: EmailTrends,
     layout: "/admin",
   },
   {
@@ -74,13 +82,13 @@ const dashboardRoutes = [
     component: Notifications,
     layout: "/admin",
   },
-  {
+  /*{
     path: "/user",
     name: "User Profile",
     icon: "nc-icon nc-circle-09",
     component: UserProfile,
     layout: "/admin",
-  },
+  },*/
 ];
 
 export default dashboardRoutes;

@@ -73,7 +73,7 @@ function CustomFit() {
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
-                      <p className="card-category">Current Promo 8/18 - 9/15</p>
+                      <p className="card-category">Current Promo 8/26 - 9/23</p>
                       <Card.Title as="h4">Terra + Yeti<br /><a href="https://pages.customfit.me/terra-giveaway" target="_blank">FORM</a></Card.Title>
                     </div>
                   </Col>
@@ -120,10 +120,10 @@ function CustomFit() {
                           3.07,
                           3.08,
                           3.22,
-                          0,
-                          0,
-                          0,
-                          0,
+                          3.41,
+                          4.42,
+                          3.48,
+                          3.34,
                         ],
                         [
                           5.45,
@@ -133,8 +133,8 @@ function CustomFit() {
                           3.87,
                           3.85,
                           3.73,
-                          1.69,
-                          0,
+                          3.73,
+                          1.08,
                           0,
                           0,
                           0,
@@ -167,14 +167,188 @@ function CustomFit() {
               </Card.Body>
               <Card.Footer>
                 <div className="stats">
-                  <i className="fas fa-circle text-info"></i> 2020 YTD Sales: $26,762,214<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $33,505,966<br />
-                  <i className="fas fa-check text-success"></i> Last updated 8/12/21 @ 4:16 p.m. EST
+                  <i className="fas fa-circle text-info"></i> 2020 Total Sales: $43,659,271<br />
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $36,794,407<br />
+                  <i className="fas fa-check text-success"></i> Last updated 9/9/21 @ 11:30 p.m. EST
                 </div>
               </Card.Footer>
             </Card>
           </Col>
           </Row>
+          <Row>
+          <Col lg="6" sm="12">
+            <Card className="card-stats">
+              <Card.Body>
+                <Row>
+                  <Col xs="3">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="fas fa-shipping-fast text-danger"></i>
+                    </div>
+                  </Col>
+                  <Col xs="9">
+                  <div className="numbers">
+                        <p className="card-category">2020 Return Rates (Same Range as 2021)</p>
+                        <Card.Title as="h4">Orders: 270,672<br />Returns: 31,710<br />Return Rate: 11.72%</Card.Title>
+                    </div>
+                  </Col>
+                </Row>
+              </Card.Body>
+              <Card.Footer>
+              </Card.Footer>
+            </Card>
+          </Col>
+          <Col lg="6" sm="12">
+            <Card className="card-stats">
+              <Card.Body>
+                <Row>
+                  <Col xs="3">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="fas fa-dolly-flatbed text-success"></i>
+                    </div>
+                  </Col>
+                  <Col xs="9">
+                  <div className="numbers">
+                        <p className="card-category">2021 YTD Return Rates</p>
+                        <Card.Title as="h4">Orders: 328,686<br />Returns: 31,957<br />Return Rate: 9.72%</Card.Title>
+                    </div>
+                  </Col>
+                </Row>
+              </Card.Body>
+              <Card.Footer>
+              </Card.Footer>
+            </Card>
+          </Col>
+          </Row>
+          <Row>
+          <Col lg="4" sm="12">
+            <Card className="card-stats">
+              <Card.Body>
+                <Row>
+                  <Col xs="3">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="fas fa-tools text-warning"></i>
+                    </div>
+                  </Col>
+                  <Col xs="9">
+                  <div className="numbers">
+                        <p className="card-category">Georgia Boot</p>
+                        <Card.Title as="h4">YTD Sales<br />$2,973,184</Card.Title>
+                    </div>
+                  </Col>
+                </Row>
+              </Card.Body>
+              <Card.Footer>
+              </Card.Footer>
+            </Card>
+          </Col>
+          <Col lg="4" sm="12">
+            <Card className="card-stats">
+              <Card.Body>
+                <Row>
+                  <Col xs="3">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="fas fa-mountain text-danger"></i>
+                    </div>
+                  </Col>
+                  <Col xs="9">
+                    <div className="numbers">
+                      <p className="card-category">Rocky</p>
+                      <Card.Title as="h4">YTD Sales<br />$2,574,746</Card.Title>
+                    </div>
+                  </Col>
+                </Row>
+              </Card.Body>
+              <Card.Footer>
+              </Card.Footer>
+            </Card>
+          </Col>
+          <Col lg="4" sm="12">
+            <Card className="card-stats">
+              <Card.Body>
+                <Row>
+                  <Col xs="3">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="fas fa-hat-cowboy text-dark"></i>
+                    </div>
+                  </Col>
+                  <Col xs="9">
+                    <div className="numbers">
+                        <p className="card-category">Durango</p>
+                        <Card.Title as="h4">YTD Sales<br />$1,063,382</Card.Title>
+                    </div>
+                  </Col>
+                </Row>
+              </Card.Body>
+              <Card.Footer>
+              </Card.Footer>
+            </Card>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="4" sm="12">
+            <Card className="card-stats">
+              <Card.Body>
+                <Row>
+                  <Col xs="3">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="fas fa-hard-hat text-warning"></i>
+                    </div>
+                  </Col>
+                  <Col xs="9">
+                  <div className="numbers">
+                        <p className="card-category">Lehigh Safety Shoes</p>
+                        <Card.Title as="h4">YTD Sales<br />$769,001</Card.Title>
+                    </div>
+                  </Col>
+                </Row>
+              </Card.Body>
+              <Card.Footer>
+              </Card.Footer>
+            </Card>
+          </Col>
+          <Col lg="4" sm="12">
+            <Card className="card-stats">
+              <Card.Body>
+                <Row>
+                  <Col xs="3">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="fas fa-tractor text-success"></i>
+                    </div>
+                  </Col>
+                  <Col xs="9">
+                    <div className="numbers">
+                      <p className="card-category">Muck</p>
+                      <Card.Title as="h4">YTD Sales<br />$81,217</Card.Title>
+                    </div>
+                  </Col>
+                </Row>
+              </Card.Body>
+              <Card.Footer>
+              </Card.Footer>
+            </Card>
+          </Col>
+          <Col lg="4" sm="12">
+            <Card className="card-stats">
+              <Card.Body>
+                <Row>
+                  <Col xs="3">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="fas fa-tint-slash text-danger"></i>
+                    </div>
+                  </Col>
+                  <Col xs="9">
+                    <div className="numbers">
+                        <p className="card-category">SlipGrips</p>
+                        <Card.Title as="h4">YTD Sales<br />$79,851</Card.Title>
+                    </div>
+                  </Col>
+                </Row>
+              </Card.Body>
+              <Card.Footer>
+              </Card.Footer>
+            </Card>
+          </Col>
+        </Row>
           <Row>
           <Col md="6">
             <Card className="card-tasks">
@@ -187,9 +361,24 @@ function CustomFit() {
                 <div className="table-full-width">
                   <Table>
                     <tbody>
+                    <tr>
+                        <td>
+                          <i className="fab fa-paypal text-warning"></i> PayPal Integration
+                        </td>
+                      </tr>
                       <tr>
                         <td>
-                        <i className="fas fa-paint-brush text-success"></i> CAT Landing style changes
+                          <i className="fab fa-apple text-warning"></i> Apple Pay Integration
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fab fa-google text-warning"></i> Google Pay Integration
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <i className="fas fa-paint-brush text-warning"></i> CAT Landing style changes
                         </td>
                       </tr>
                       <tr>
@@ -200,21 +389,6 @@ function CustomFit() {
                       <tr>
                         <td>
                           <i className="far fa-window-maximize text-danger"></i> New CustomFit Header / Menu on after login pages
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i className="fab fa-paypal text-danger"></i> PayPal Integration
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i className="fab fa-apple text-danger"></i> Apple Pay Integration
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i className="fab fa-google text-danger"></i> Google Pay Integration
                         </td>
                       </tr>
                     </tbody>
@@ -235,7 +409,7 @@ function CustomFit() {
               <Card.Header>
               <i class="fas fa-2x fa-envelope-open-text text-success"></i>
                 <Card.Title as="h4">CustomFit Open Rates</Card.Title>
-                <p className="card-category">Campaign: 2021-0812-cf-reebok</p>
+                <p className="card-category">Campaign: 2021-0909-cf-assp-invite</p>
               </Card.Header>
               <Card.Body>
                 <div
@@ -244,17 +418,17 @@ function CustomFit() {
                 >
                   <ChartistGraph
                     data={{
-                      labels: ["80%", "20%"],
-                      series: [10366, 3130],
+                      labels: ["68%", "32%"],
+                      series: [7930, 2518],
                     }}
                     type="Pie"
                   />
                 </div>
                 <div className="stats">
-                    <i className="fas fa-circle text-info"></i> Total Sends: 10,366<br />
-                  <i className="fas fa-circle text-danger"></i> Total Opens: 3130<br />
+                    <i className="fas fa-circle text-info"></i> Total Sends: 7930<br />
+                  <i className="fas fa-circle text-danger"></i> Unique Opens: 2518<br />
                   <i className="fas fa-circle text-warning"></i> Click-Through Rate: 6.2%<br />
-                  <i className="far fa-clock text-success"></i> Campaign sent 8/12
+                  <i className="far fa-clock text-success"></i> Campaign sent 9/9
                 </div>
               </Card.Body>
             </Card>
@@ -264,7 +438,7 @@ function CustomFit() {
               <Card.Header>
               <i class="fas fa-2x fa-envelope-open-text text-primary"></i>
                 <Card.Title as="h4">Shoe Angel Open Rates</Card.Title>
-                <p className="card-category">Campaign: 2021-0812-sa-reebok</p>
+                <p className="card-category">Campaign: 2021-0909-sa-twistedx</p>
               </Card.Header>
               <Card.Body>
                 <div
@@ -273,17 +447,17 @@ function CustomFit() {
                 >
                   <ChartistGraph
                     data={{
-                      labels: ["80.7%", "19.3%"],
-                      series: [181, 50],
+                      labels: ["85%", "15%"],
+                      series: [176, 26],
                     }}
                     type="Pie"
                   />
                 </div>
                 <div className="stats">
-                    <i className="fas fa-circle text-info"></i> Total Sends: 181<br />
-                  <i className="fas fa-circle text-danger"></i> Total Opens: 50<br />
-                  <i className="fas fa-circle text-warning"></i> Click-Through Rate: 8.6%<br />
-                  <i className="far fa-clock text-success"></i> Campaign sent 8/12
+                    <i className="fas fa-circle text-info"></i> Total Sends: 176<br />
+                  <i className="fas fa-circle text-danger"></i> Total Opens: 26<br />
+                  <i className="fas fa-circle text-warning"></i> Click-Through Rate: 27%<br />
+                  <i className="far fa-clock text-success"></i> Campaign sent 8/26
                 </div>
               </Card.Body>
             </Card>

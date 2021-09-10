@@ -133,8 +133,8 @@ function SlipGrips() {
                           11.1,
                           16.3,
                           10.5,
-                          4.7,
-                          0,
+                          8.8,
+                          2.5,
                           0,
                           0,
                           0,
@@ -168,8 +168,8 @@ function SlipGrips() {
               <Card.Footer>
                 <div className="stats">
                   <i className="fas fa-circle text-info"></i> 2020 Total Sales: $83,520<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $91,500<br />
-                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $99,039<br />
+                  <i className="fas fa-check text-success"></i> Last updated 9/9/21 @ 11:30 p.m. EST
                 </div>
               </Card.Footer>
             </Card>
@@ -181,7 +181,7 @@ function SlipGrips() {
               <Card.Header>
               <i class="fas fa-2x fa-envelope-open-text text-danger"></i>
                 <Card.Title as="h4">Email Open Rates</Card.Title>
-                <p className="card-category">Campaign: 2021-0812-sg-reebok</p>
+                <p className="card-category">Campaign: 2021-0909-sg-rewards</p>
               </Card.Header>
               <Card.Body>
                 <div
@@ -190,17 +190,17 @@ function SlipGrips() {
                 >
                   <ChartistGraph
                     data={{
-                      labels: ["77.8%", "22.2%"],
-                      series: [806, 261],
+                      labels: ["76.4%", "23.6%"],
+                      series: [783, 185],
                     }}
                     type="Pie"
                   />
                 </div>
                 <div className="stats">
-                    <i className="fas fa-circle text-info"></i> Total Sends: 806<br />
-                  <i className="fas fa-circle text-danger"></i> Total Opens: 261<br />
-                  <i className="fas fa-circle text-warning"></i> Click-Through Rate: 3.9%<br />
-                  <i className="far fa-clock text-success"></i> Campaign sent 8/12
+                    <i className="fas fa-circle text-info"></i> Total Sends: 783<br />
+                  <i className="fas fa-circle text-danger"></i> Unique Opens: 185<br />
+                  <i className="fas fa-circle text-warning"></i> Click-Through Rate: 4.9%<br />
+                  <i className="far fa-clock text-success"></i> Campaign sent 9/9
                 </div>
               </Card.Body>
             </Card>
@@ -270,35 +270,35 @@ function SlipGrips() {
                   <tbody>
                     <tr>
                         <td>1</td>
-                        <td><a href="https://www.slipgrips.com/MID806W1.html">MID806W1</a></td>
-                        <td><a href="https://www.slipgrips.com/new-balance/">New Balance</a></td>
+                        <td><a href="https://www.slipgrips.com/RB1100.html">RB1100</a></td>
+                        <td><a href="https://www.slipgrips.com/reebok/">Reebok</a></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td><a href="https://www.slipgrips.com/DDB0173.html">DDB0173</a></td>
-                        <td><a href="https://www.slipgrips.com/durango/">Durango</a></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td><a href="https://www.slipgrips.com/E200251.html">E200251</a></td>
-                        <td><a href="https://www.slipgrips.com/easy-works/">Easy Works</a></td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td><a href="https://www.slipgrips.com/77222BLK.html">77222BLK</a></td>
+                        <td><a href="https://www.slipgrips.com/77188BLK.html">77188BLK</a></td>
                         <td><a href="https://www.slipgrips.com/skechers-work/">Skechers Work</a></td>
                     </tr>
                     <tr>
+                        <td>3</td>
+                        <td><a href="https://www.slipgrips.com/5LM00679.html">5LM00679</a></td>
+                        <td><a href="https://www.slipgrips.com/fila/">Fila</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><a href="https://www.slipgrips.com/1LM00350B.html">1LM00350B</a></td>
+                        <td><a href="https://www.slipgrips.com/fila/">Fila</a></td>
+                    </tr>
+                    <tr>
                         <td>5</td>
-                        <td><a href="https://www.slipgrips.com/S5050.html">S5050</a></td>
-                        <td><a href="https://www.slipgrips.com/skidbuster/">SkidBuster</a></td>
+                        <td><a href="https://www.slipgrips.com/77222BLK.html">77222BLK</a></td>
+                        <td><a href="https://www.slipgrips.com/skechers-work/">Skechers Work</a></td>
                     </tr>
                   </tbody>
                 </Table>
               </Card.Body>
               <Card.Footer>
                 <div className="stats">
-                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
+                  <i className="fas fa-check text-success"></i> Last updated 8/26/21 @ 11:59 p.m. EST
                 </div>
               </Card.Footer>
             </Card>

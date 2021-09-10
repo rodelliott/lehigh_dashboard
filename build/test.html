@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{margin:0;}
+    </style>
+</head>
+<body>
+    <h1>CustomFit Sales</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <p id="startDate"></div>
+            <p id="endDate"></div>
+            <p id="totalSales"></div>
+            <p id="totalOrders"></div>
+            <p id="totalReturns"></div>
+            <p id="returnPercent"></div>
+            <p id="brands"></div>
+        </div>
+    </div>
+    <script>
+        let salesArr = [];
+        window.onload = function(){
+            var myHeaders = new Headers();
+            myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
+            var urlencoded = new URLSearchParams();
+            var cf_token;
+            urlencoded.append("username", "apiklaviyo");
+            urlencoded.append("password", "lcftrack783");
+            urlencoded.append("grant_type", "password");
+            var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: urlencoded,
+            redirect: 'follow'
+            };
+            fetch("https://albert.customfit.me/token", requestOptions)
+            .then(response => response.json())
+            .then(result => {cf_token = result.access_token
+                var newHeaders = new Headers();
+                newHeaders.append("Authorization", "Bearer " + cf_token + "");
+                var requestNewOptions = {
+                    method: 'GET',
+                    headers: newHeaders,
+                    redirect: 'follow'
+                };
+                let startDate = "2021-08-01";
+                let endDate = "2021-08-26";
+                let brand = "";
+                fetch("https://albert.customfit.me/api/SalesData?startDate=" + startDate + "&endDate=" + endDate + "&brand=" + brand, requestNewOptions)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('startDate').innerHTML = "Start Date: " + data[0].StartDate;
+                    document.getElementById('endDate').innerHTML = "End Date: " + data[0].EndDate;
+                    document.getElementById('totalSales').innerHTML = "Total Sales: " + data[0].TotalSales;
+                    document.getElementById('totalOrders').innerHTML = "Total Orders: " + data[0].TotalOrders;
+                    document.getElementById('totalReturns').innerHTML = "Total Returns: " + data[0].TotalReturns;
+                    document.getElementById('returnPercent').innerHTML = "Return Percent: " + (((data[0].TotalReturns) * 100) / data[0].TotalOrders).toFixed(2) + "%";
+                    if (data[0].Brand == "") {
+                        document.getElementById('brands').innerHTML = "All Brands Included In Stats";
+                    }
+                    else {
+                        document.getElementById('brands').innerHTML = "Brand: " + data[0].Brand;
+                    }
+                })
+            })
+        }
+    </script>
+</body>
+</html>

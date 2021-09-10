@@ -1,5 +1,6 @@
 import React from "react";
 import ChartistGraph from "react-chartist";
+
 import {
   Badge,
   Button,
@@ -52,7 +53,7 @@ function Outfitters() {
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
-                      <p className="card-category">Current Promo 8/18 - 9/15</p>
+                      <p className="card-category">Current Promo 8/26 - 9/23</p>
                       <Card.Title as="h4">Terra + Yeti<br /><a href="https://pages.lehighoutfitters.com/terra-giveaway" target="_blank">FORM</a></Card.Title>
                     </div>
                   </Col>
@@ -84,8 +85,6 @@ function Outfitters() {
             </Card>
           </Col>
         </Row>
-         
-          
           {/* Lehigh Outfitters Sales */}
           <Row>
           <Col md="12">
@@ -135,8 +134,8 @@ function Outfitters() {
                           37.6,
                           43.7,
                           40.2,
-                          23.4,
-                          0,
+                          39.9,
+                          8,
                           0,
                           0,
                           0,
@@ -170,22 +169,20 @@ function Outfitters() {
               <Card.Footer>
                 <div className="stats">
                   <i className="fas fa-circle text-info"></i> 2020 Total Sales: $519,385<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $307,300<br />
-                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $331,777<br />
+                  <i className="fas fa-check text-success"></i> Last updated 9/9/21 @ 11:30 p.m. EST
                 </div>
               </Card.Footer>
             </Card>
           </Col>
           </Row>
-
-
           <Row>
           <Col md="3">
             <Card>
               <Card.Header>
               <i class="fas fa-2x fa-envelope-open-text text-success"></i>
                 <Card.Title as="h4">Email Open Rates</Card.Title>
-                <p className="card-category">Campaign: 2021-0812-lo-reebok</p>
+                <p className="card-category">Campaign: 2021-0909-lo-twistedx</p>
               </Card.Header>
               <Card.Body>
                 <div
@@ -194,17 +191,17 @@ function Outfitters() {
                 >
                   <ChartistGraph
                     data={{
-                      labels: ["73%", "27%"],
-                      series: [2346, 901],
+                      labels: ["73.6%", "26.4%"],
+                      series: [2192, 577],
                     }}
                     type="Pie"
                   />
                 </div>
                 <div className="stats">
-                    <i className="fas fa-circle text-info"></i> Total Sends: 2,346<br />
-                  <i className="fas fa-circle text-danger"></i> Total Opens: 901<br />
-                  <i className="fas fa-circle text-warning"></i> Click-Through Rate: 5.1%<br />
-                  <i className="far fa-clock text-success"></i> Campaign sent 8/12
+                    <i className="fas fa-circle text-info"></i> Total Sends: 2,192<br />
+                  <i className="fas fa-circle text-danger"></i> Unique Opens: 577<br />
+                  <i className="fas fa-circle text-warning"></i> Click-Through Rate: 7.8%<br />
+                  <i className="far fa-clock text-success"></i> Campaign sent 9/9
                 </div>
               </Card.Body>
             </Card>
@@ -254,7 +251,7 @@ function Outfitters() {
               <i class="fas fa-2x fa-shoe-prints text-success"></i>
                 <Card.Title as="h4">Top Sellers</Card.Title>
                 <p className="card-category">
-                  Top Styles MTD
+                  Top Styles YTD
                 </p>
               </Card.Header>
               <Card.Body className="table-full-width table-responsive px-0">
@@ -270,35 +267,35 @@ function Outfitters() {
                   <tbody>
                     <tr>
                         <td>1</td>
-                        <td><a href="https://www.lehighoutfitters.com/3149.html">3149</a></td>
-                        <td><a href="https://www.lehighoutfitters.com/lehigh-safety-shoes/">Lehigh Safety Shoes</a></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
                         <td><a href="https://www.lehighoutfitters.com/G6374.html">G6374</a></td>
                         <td><a href="https://www.lehighoutfitters.com/georgia-boot/">Georgia Boot</a></td>
                     </tr>
                     <tr>
+                        <td>2</td>
+                        <td><a href="https://www.lehighoutfitters.com/RKW0306.html">RKW0306</a></td>
+                        <td><a href="https://www.lehighoutfitters.com/rocky/">Rocky</a></td>
+                    </tr>
+                    <tr>
                         <td>3</td>
-                        <td><a href="https://www.lehighoutfitters.com/RB4830.html">RB4830</a></td>
-                        <td><a href="https://www.lehighoutfitters.com/reebok/">Reebok Work</a></td>
+                        <td><a href="https://www.lehighoutfitters.com/A7452.html">A7452</a></td>
+                        <td><a href="https://www.lehighoutfitters.com/avenger/">Avenger</a></td>
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td><a href="https://www.lehighoutfitters.com/1107.html">1107</a></td>
-                        <td><a href="https://www.lehighoutfitters.com/lehigh-safety-shoes/">Lehigh Safety Shoes</a></td>
+                        <td><a href="https://www.lehighoutfitters.com/65016.html">65016</a></td>
+                        <td><a href="https://www.lehighoutfitters.com/timberland-pro/">Timberland PRO</a></td>
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td><a href="https://www.lehighoutfitters.com/GB00476.html">GB00476</a></td>
-                        <td><a href="https://www.lehighoutfitters.com/georgia-boot/">Georgia Boot</a></td>
+                        <td><a href="https://www.lehighoutfitters.com/1107.html">1107</a></td>
+                        <td><a href="https://www.lehighoutfitters.com/lehigh-safety-shoes/">Lehigh Safety Shoes</a></td>
                     </tr>
                   </tbody>
                 </Table>
               </Card.Body>
               <Card.Footer>
                 <div className="stats">
-                  <i className="fas fa-check text-success"></i> Last updated 8/17/21 @ 11:59 p.m. EST
+                  <i className="fas fa-check text-success"></i> Last updated 8/26/21 @ 10:30 p.m. EST
                 </div>
               </Card.Footer>
             </Card>
