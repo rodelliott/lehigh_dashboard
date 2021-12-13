@@ -41,6 +41,7 @@ function SlipGrips() {
               </Card.Footer>
             </Card>
           </Col>
+         
           <Col lg="4" sm="12">
             <Card className="card-stats">
               <Card.Body>
@@ -51,9 +52,9 @@ function SlipGrips() {
                     </div>
                   </Col>
                   <Col xs="9">
-                    <div className="numbers">
-                      <p className="card-category">Current Promo - August</p>
-                      <Card.Title as="h4">Back To School<br /><a href="https://pages.slipgrips.com/giveaway" target="_blank">FORM</a></Card.Title>
+                  <div className="numbers">
+                    <p className="card-category">Current Promo 12/1 - 12/31</p>
+                      <Card.Title as="h4">Keen $250 Visa<br /><a href="https://pages.slipgrips.com/keen-giveaway" target="_blank">LINK</a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -68,13 +69,13 @@ function SlipGrips() {
                 <Row>
                   <Col xs="3">
                     <div className="icon-big text-center icon-warning">
-                      <i className="fas fa-ad text-danger"></i>
+                      <i className="fas fa-percent text-danger"></i>
                     </div>
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
                       <p className="card-category">Next Promo</p>
-                      <Card.Title as="h4">Only Janelle Knows<br /><a href="#" target="_blank">Coming Soon</a></Card.Title>
+                      <Card.Title as="h4">Only Janelle Knows<br /><a href="https://pages.slipgrips.com/giveaway" target="_blank"></a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -134,10 +135,10 @@ function SlipGrips() {
                           16.3,
                           10.5,
                           8.8,
-                          2.5,
-                          0,
-                          0,
-                          0,
+                          8.8,
+                          6.9,
+                          5.3,
+                          0.7,
                         ],
                       ],
                     }}
@@ -168,47 +169,192 @@ function SlipGrips() {
               <Card.Footer>
                 <div className="stats">
                   <i className="fas fa-circle text-info"></i> 2020 Total Sales: $83,520<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $99,039<br />
-                  <i className="fas fa-check text-success"></i> Last updated 9/9/21 @ 11:30 p.m. EST
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $118,268<br />
+                  <i className="fas fa-check text-success"></i> Last updated 12/1/21 @ 9:00 a.m. EST
                 </div>
               </Card.Footer>
             </Card>
           </Col>
           </Row>
+
           <Row>
-          <Col md="3">
+          <Col md="12">
             <Card>
               <Card.Header>
-              <i class="fas fa-2x fa-envelope-open-text text-danger"></i>
-                <Card.Title as="h4">Email Open Rates</Card.Title>
-                <p className="card-category">Campaign: 2021-0909-sg-rewards</p>
+                <Card.Title as="h4">SlipGrips Email Trends</Card.Title>
+                <p className="card-category">Open Rates &amp; CTR</p>
               </Card.Header>
               <Card.Body>
-                <div
-                  className="ct-chart ct-perfect-fourth"
-                  id="chartPreferences"
-                >
+                <div className="ct-chart" id="chartActivity">
                   <ChartistGraph
                     data={{
-                      labels: ["76.4%", "23.6%"],
-                      series: [783, 185],
+                      labels: [
+                        "8/4",
+                        "8/12",
+                        "8/19",
+                        "8/26",
+                        "9/3",
+                        "9/9",
+                        "9/20",
+                        "10/01",
+                        "10/07",
+                        "10/14",
+                        "10/21",
+                        "10/22",
+                        "10/28",
+                        "10/29",
+                        "11/4",
+                        "11/5",
+                        "11/9",
+                        "11/12",
+                        "11/16",
+                        "11/19",
+                        "11/26",
+                        "11/29",
+                        "12/1"
+                      ],
+                      series: [    
+                        [
+                          26,
+                          26,
+                          29,
+                          41,
+                          26,
+                          24,
+                          37,
+                          27,
+                          23,
+                          25,
+                          24,
+                          18,
+                          18,
+                          20,
+                          16,
+                          19,
+                          24,
+                          18,
+                          19,
+                          20,
+                          20,
+                          19,
+                          29
+                        ],
+                        [
+                          4,
+                          5,
+                          4,
+                          14,
+                          5,
+                          5,
+                          20,
+                          10,
+                          9,
+                          24,
+                          30,
+                          10,
+                          16,
+                          8,
+                          6,
+                          9,
+                          10,
+                          6,
+                          8,
+                          8,
+                          7,
+                          9,
+                          15
+                        ],
+                      ],
                     }}
-                    type="Pie"
+                    type="Line"
+                    options={{
+                      seriesBarDistance: 12,
+                      showArea: true,
+                      axisX: {
+                        showGrid: true,
+                      },
+                      height: "250px",
+                    }}
+                    responsiveOptions={[
+                      [
+                        "screen and (max-width: 640px)",
+                        {
+                          seriesBarDistance: 5,
+                          axisX: {
+                            labelInterpolationFnc: function (value) {
+                              return value[0];
+                            },
+                          },
+                        },
+                      ],
+                    ]}
                   />
                 </div>
-                <div className="stats">
-                    <i className="fas fa-circle text-info"></i> Total Sends: 783<br />
-                  <i className="fas fa-circle text-danger"></i> Unique Opens: 185<br />
-                  <i className="fas fa-circle text-warning"></i> Click-Through Rate: 4.9%<br />
-                  <i className="far fa-clock text-success"></i> Campaign sent 9/9
-                </div>
               </Card.Body>
+              <Card.Footer>
+                <div className="stats">
+                <i className="fas fa-circle text-info"></i> Open Rate<br />
+                  <i className="fas fa-circle text-danger"></i> Click-Through Rate<br />
+                  <i className="fas fa-check text-success"></i> Last updated 12/1/21 @ 9:00 a.m. EST
+                </div>
+              </Card.Footer>
             </Card>
           </Col>
-          <Col md="5">
+          </Row>
+
+
+          <Row>
+          <Col md="4">
             <Card className="card-tasks">
               <Card.Header>
-              <i class="fas fa-2x fa-code text-danger"></i>
+              <i class="fas fa-2x fa-pastafarianism text-success"></i>
+                <Card.Title as="h4">More Sales Stats</Card.Title>
+                <p className="card-category">SFCC Metrics</p>
+              </Card.Header>
+              <Card.Body>
+                <div className="table-full-width">
+                  <Table>
+                    <tbody>
+                    <tr>
+                        <td>
+                        <i className="fas fa-wallet text-success"></i> Avg Sales Per Day: $352
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <i className="fas fa-barcode text-success"></i> Avg Order Value: $69
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-box text-success"></i> Avg Units Per Transaction: 1.21
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-boxes text-success"></i> Avg Orders Per Day: 5
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-search text-success"></i> Top Search Term: food service
+                        </td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </div>
+              </Card.Body>
+              <Card.Footer>
+                <div className="stats">
+                  <i className="fas fa-circle text-success"></i> Last updated 12/1/21 at 9:00 a.m.
+                </div>
+              </Card.Footer>
+            </Card>
+          </Col>
+          <Col md="4">
+            <Card className="card-tasks">
+              <Card.Header>
+              <i class="fas fa-2x fa-code text-success"></i>
                 <Card.Title as="h4">Future Upgrades</Card.Title>
                 <p className="card-category">Front-End / Back-End Development</p>
               </Card.Header>
@@ -219,11 +365,6 @@ function SlipGrips() {
                       <tr>
                         <td>
                         <i className="fas fa-font text-success"></i> Continue SEO Improvements
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i className="fas fa-shopping-cart text-warning"></i> Begin new homepage design
                         </td>
                       </tr>
                       <tr>
@@ -250,57 +391,63 @@ function SlipGrips() {
             </Card>
           </Col>
           <Col md="4">
-            <Card className="strpied-tabled-with-hover">
+            <Card className="card-tasks">
               <Card.Header>
-              <i class="fas fa-2x fa-shoe-prints text-danger"></i>
+              <i class="fas fa-2x fa-shoe-prints text-success"></i>
                 <Card.Title as="h4">Top Sellers</Card.Title>
-                <p className="card-category">
-                  Top Styles YTD
-                </p>
+                <p className="card-category">Top 5 YTD</p>
               </Card.Header>
-              <Card.Body className="table-full-width table-responsive px-0">
-                <Table className="table-striped">
-                  <thead>
-                    <tr>
-                      <th className="border-0">Rank</th>
-                      <th className="border-0">Style</th>
-                      <th className="border-0">Brand</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td><a href="https://www.slipgrips.com/RB1100.html">RB1100</a></td>
-                        <td><a href="https://www.slipgrips.com/reebok/">Reebok</a></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td><a href="https://www.slipgrips.com/77188BLK.html">77188BLK</a></td>
-                        <td><a href="https://www.slipgrips.com/skechers-work/">Skechers Work</a></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td><a href="https://www.slipgrips.com/5LM00679.html">5LM00679</a></td>
-                        <td><a href="https://www.slipgrips.com/fila/">Fila</a></td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td><a href="https://www.slipgrips.com/1LM00350B.html">1LM00350B</a></td>
-                        <td><a href="https://www.slipgrips.com/fila/">Fila</a></td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td><a href="https://www.slipgrips.com/77222BLK.html">77222BLK</a></td>
-                        <td><a href="https://www.slipgrips.com/skechers-work/">Skechers Work</a></td>
-                    </tr>
-                  </tbody>
-                </Table>
+              <Card.Body>
+                <div className="table-full-width">
+                  <Table>
+                    <tbody>
+                      <tr>
+                        <td>
+                        <i className="fas fa-circle text-warning"></i> <a href="https://www.slipgrips.com/RB1100.html">RB1100 - Reebok Jorie</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-circle text-warning"></i> <a href="https://www.slipgrips.com/77188BLK.html">77188BLK - Skechers Work Cessnock</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-circle text-warning"></i> <a href="https://www.slipgrips.com/5LM00679.html">5LM00679 - Fila Memory</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-circle text-warning"></i> <a href="https://www.slipgrips.com/5332.html">5332 - SlipGrips Steel Toe</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-circle text-warning"></i> <a href="https://www.slipgrips.com/SG4290.html">SG4290 - SlipGrips Oxford</a>
+                        </td>
+                      </tr>
+                    
+                    </tbody>
+                  </Table>
+                </div>
               </Card.Body>
               <Card.Footer>
                 <div className="stats">
-                  <i className="fas fa-check text-success"></i> Last updated 8/26/21 @ 11:59 p.m. EST
+                  <i className="fas fa-circle text-success"></i> Last Updated 11/12/21 at 9:00 a.m.<br />
                 </div>
               </Card.Footer>
+            </Card>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm="12" class="mx-auto">
+            <Card className="card-tasks">
+              <Card.Body>
+                <div className="table-full-width" class="text-center">
+                <iframe height="1000" width="1200" src="https://datastudio.google.com/embed/reporting/1b4b5d45-d043-4e86-a8c9-8f682b3aa53f/page/LuBV" frameborder="0" allowfullscreen></iframe>
+
+                </div>
+              </Card.Body>
             </Card>
           </Col>
         </Row>

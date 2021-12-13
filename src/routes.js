@@ -2,6 +2,8 @@ import CustomFit from "views/CustomFit.js";
 import Outfitters from "views/Outfitters.js";
 import SafetyShoes from "views/SafetyShoes.js";
 import SlipGrips from "views/SlipGrips.js";
+import RetailB2C from "views/RetailB2C.js";
+import OGBrands from "views/OGBrands.js";
 import UserProfile from "views/UserProfile.js";
 import TableList from "views/TableList.js";
 import Icons from "views/Icons.js";
@@ -41,10 +43,17 @@ const dashboardRoutes = [
     layout: "/admin",
   },
   {
-    path: "/emailtrends",
-    name: "Email Trends",
-    icon: "nc-icon nc-bulb-63",
-    component: EmailTrends,
+    path: "/retailb2c",
+    name: "Retail B2C",
+    icon: "nc-icon nc-cart-simple",
+    component: RetailB2C,
+    layout: "/admin",
+  },
+  {
+    path: "/ogbrands",
+    name: "OG Brands",
+    icon: "nc-icon nc-tag-content",
+    component: OGBrands,
     layout: "/admin",
   },
   {
@@ -54,7 +63,7 @@ const dashboardRoutes = [
     component: BrandLogos,
     layout: "/admin",
   },
-  {
+  /*{
     path: "/videos",
     name: "Brand Videos",
     icon: "nc-icon nc-cctv",
@@ -67,8 +76,8 @@ const dashboardRoutes = [
     icon: "nc-icon nc-grid-45",
     component: Lifestyle,
     layout: "/admin",
-  },
-  /*{
+  },*/
+   /*{
     path: "/icons",
     name: "Icons",
     icon: "nc-icon nc-atom",

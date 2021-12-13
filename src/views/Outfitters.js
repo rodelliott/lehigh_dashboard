@@ -53,8 +53,8 @@ function Outfitters() {
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
-                      <p className="card-category">Current Promo 8/26 - 9/23</p>
-                      <Card.Title as="h4">Terra + Yeti<br /><a href="https://pages.lehighoutfitters.com/terra-giveaway" target="_blank">FORM</a></Card.Title>
+                      <p className="card-category">Current Promo 12/1 - 12/31</p>
+                      <Card.Title as="h4">Keen $250 Visa<br /><a href="https://pages.lehighoutfitters.com/keen-giveaway" target="_blank">FORM</a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -69,13 +69,13 @@ function Outfitters() {
                 <Row>
                   <Col xs="3">
                     <div className="icon-big text-center icon-warning">
-                      <i className="fas fa-ad text-warning"></i>
+                      <i className="fas fa-percent text-warning"></i>
                     </div>
                   </Col>
                   <Col xs="9">
                     <div className="numbers">
                       <p className="card-category">Next Promo</p>
-                      <Card.Title as="h4">Only Janelle Knows<br /><a href="#" target="_blank">Coming Soon</a></Card.Title>
+                      <Card.Title as="h4">Only Janelle Knows<br /><a href="https://pages.lehighoutfitters.com/giveaway" target="_blank"></a></Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -135,10 +135,10 @@ function Outfitters() {
                           43.7,
                           40.2,
                           39.9,
-                          8,
-                          0,
-                          0,
-                          0,
+                          31.6,
+                          37.8,
+                          51.3,
+                          4.1,
                         ],
                       ],
                     }}
@@ -169,44 +169,187 @@ function Outfitters() {
               <Card.Footer>
                 <div className="stats">
                   <i className="fas fa-circle text-info"></i> 2020 Total Sales: $519,385<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $331,777<br />
-                  <i className="fas fa-check text-success"></i> Last updated 9/9/21 @ 11:30 p.m. EST
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $448,485<br />
+                  <i className="fas fa-check text-success"></i> Last updated 12/1/21 @ 9:00 a.m. EST
                 </div>
               </Card.Footer>
             </Card>
           </Col>
           </Row>
           <Row>
-          <Col md="3">
+          <Col md="12">
             <Card>
               <Card.Header>
-              <i class="fas fa-2x fa-envelope-open-text text-success"></i>
-                <Card.Title as="h4">Email Open Rates</Card.Title>
-                <p className="card-category">Campaign: 2021-0909-lo-twistedx</p>
+                <Card.Title as="h4">Lehigh Outfitters Email Trends</Card.Title>
+                <p className="card-category">Open Rates &amp; CTR</p>
               </Card.Header>
               <Card.Body>
-                <div
-                  className="ct-chart ct-perfect-fourth"
-                  id="chartPreferences"
-                >
+                <div className="ct-chart" id="chartActivity">
                   <ChartistGraph
                     data={{
-                      labels: ["73.6%", "26.4%"],
-                      series: [2192, 577],
+                      labels: [
+                       
+                        "8/4",
+                        "8/12",
+                        "8/19",
+                        "8/26",
+                        "9/3",
+                        "9/9",
+                        "9/16",
+                        "9/22",
+                        "10/01",
+                        "10/07",
+                        "10/14",
+                        "10/21",
+                        "10/28",
+                        "11/1",
+                        "11/3",
+                        "11/10",
+                        "11/15",
+                        "11/17",
+                        "11/24",
+                        "11/26",
+                        "11/29",
+                        "12/1"
+                      ],
+                      series: [
+                        [
+                         
+                          20,
+                          33,
+                          35,
+                          26,
+                          24,
+                          26,
+                          28,
+                          29,
+                          31,
+                          27,
+                          26,
+                          21,
+                          20,
+                          18,
+                          25,
+                          22,
+                          18,
+                          17,
+                          21,
+                          15,
+                          15,
+                          22
+                        ],
+                        [
+                         
+                          6,
+                          5,
+                          7,
+                          9,
+                          8,
+                          8,
+                          9,
+                          6,
+                          10,
+                          9,
+                          22,
+                          9,
+                          15,
+                          6,
+                          16,
+                          17,
+                          10,
+                          19,
+                          17,
+                          10,
+                          11,
+                          19
+                        ],
+                      ],
                     }}
-                    type="Pie"
+                    type="Line"
+                    options={{
+                      seriesBarDistance: 12,
+                      showArea: true,
+                      axisX: {
+                        showGrid: true,
+                      },
+                      height: "250px",
+                    }}
+                    responsiveOptions={[
+                      [
+                        "screen and (max-width: 640px)",
+                        {
+                          seriesBarDistance: 5,
+                          axisX: {
+                            labelInterpolationFnc: function (value) {
+                              return value[0];
+                            },
+                          },
+                        },
+                      ],
+                    ]}
                   />
                 </div>
-                <div className="stats">
-                    <i className="fas fa-circle text-info"></i> Total Sends: 2,192<br />
-                  <i className="fas fa-circle text-danger"></i> Unique Opens: 577<br />
-                  <i className="fas fa-circle text-warning"></i> Click-Through Rate: 7.8%<br />
-                  <i className="far fa-clock text-success"></i> Campaign sent 9/9
-                </div>
               </Card.Body>
+              <Card.Footer>
+                <div className="stats">
+                <i className="fas fa-circle text-info"></i> Open Rate<br />
+                  <i className="fas fa-circle text-danger"></i> Click-Through Rate<br />
+                  <i className="fas fa-check text-success"></i> Last updated 11/18/21 @ 9:00 a.m. EST
+                </div>
+              </Card.Footer>
             </Card>
           </Col>
-          <Col md="5">
+          </Row>
+
+          <Row>
+          <Col md="4">
+            <Card className="card-tasks">
+              <Card.Header>
+              <i class="fas fa-2x fa-pastafarianism text-success"></i>
+                <Card.Title as="h4">More Sales Stats</Card.Title>
+                <p className="card-category">SFCC Metrics</p>
+              </Card.Header>
+              <Card.Body>
+                <div className="table-full-width">
+                  <Table>
+                    <tbody>
+                    <tr>
+                        <td>
+                        <i className="fas fa-wallet text-success"></i> Avg Sales Per Day: $1,331
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                        <i className="fas fa-barcode text-success"></i> Avg Order Value: $147
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-box text-success"></i> Avg Units Per Transaction: 1.3
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-boxes text-success"></i> Avg Orders Per Day: 9
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-search text-success"></i> Top Search Term: georgia boot
+                        </td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </div>
+              </Card.Body>
+              <Card.Footer>
+                <div className="stats">
+                  <i className="fas fa-circle text-success"></i> Last updated 11/12/21 at 9:00 a.m.
+                </div>
+              </Card.Footer>
+            </Card>
+          </Col>
+          <Col md="4">
             <Card className="card-tasks">
               <Card.Header>
               <i class="fas fa-2x fa-code text-success"></i>
@@ -246,58 +389,65 @@ function Outfitters() {
             </Card>
           </Col>
           <Col md="4">
-            <Card className="strpied-tabled-with-hover">
+            <Card className="card-tasks">
               <Card.Header>
               <i class="fas fa-2x fa-shoe-prints text-success"></i>
                 <Card.Title as="h4">Top Sellers</Card.Title>
-                <p className="card-category">
-                  Top Styles YTD
-                </p>
+                <p className="card-category">Top 5 YTD</p>
               </Card.Header>
-              <Card.Body className="table-full-width table-responsive px-0">
-                <Table className="table-striped">
-                  <thead>
-                    <tr>
-                      <th className="border-0">Rank</th>
-                      <th className="border-0">Style</th>
-                      <th className="border-0">Brand</th>
-                      
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td><a href="https://www.lehighoutfitters.com/G6374.html">G6374</a></td>
-                        <td><a href="https://www.lehighoutfitters.com/georgia-boot/">Georgia Boot</a></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td><a href="https://www.lehighoutfitters.com/RKW0306.html">RKW0306</a></td>
-                        <td><a href="https://www.lehighoutfitters.com/rocky/">Rocky</a></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td><a href="https://www.lehighoutfitters.com/A7452.html">A7452</a></td>
-                        <td><a href="https://www.lehighoutfitters.com/avenger/">Avenger</a></td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td><a href="https://www.lehighoutfitters.com/65016.html">65016</a></td>
-                        <td><a href="https://www.lehighoutfitters.com/timberland-pro/">Timberland PRO</a></td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td><a href="https://www.lehighoutfitters.com/1107.html">1107</a></td>
-                        <td><a href="https://www.lehighoutfitters.com/lehigh-safety-shoes/">Lehigh Safety Shoes</a></td>
-                    </tr>
-                  </tbody>
-                </Table>
+              <Card.Body>
+                <div className="table-full-width">
+                  <Table>
+                    <tbody>
+                      <tr>
+                        <td>
+                        <i className="fas fa-circle text-warning"></i> <a href="https://www.lehighoutfitters.com/G6374.html">G6374 - Georgia Giant Steel Toe</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-circle text-warning"></i> <a href="https://www.lehighoutfitters.com/RKW0306.html">RKW0306 - Rocky Original Ride</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-circle text-warning"></i> <a href="https://www.lehighoutfitters.com/XHY866.html">XHY866 - Michelin&reg; HydroEdge</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-circle text-warning"></i> <a href="https://www.lehighoutfitters.com/65016.html">65016 - Timberland PRO Direct</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i className="fas fa-circle text-warning"></i> <a href="https://www.lehighoutfitters.com/1107.html">1107 - LSS Swampers</a>
+                        </td>
+                      </tr>
+                     
+                     
+                    </tbody>
+                  </Table>
+                </div>
               </Card.Body>
               <Card.Footer>
                 <div className="stats">
-                  <i className="fas fa-check text-success"></i> Last updated 8/26/21 @ 10:30 p.m. EST
+                  <i className="fas fa-circle text-success"></i> Last Updated 11/12/21 at 9:00 a.m.<br />
                 </div>
               </Card.Footer>
+            </Card>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col sm="12" class="mx-auto">
+            <Card className="card-tasks">
+              <Card.Body>
+                <div className="table-full-width" class="text-center">
+                <iframe height="1000" width="1200" src="https://datastudio.google.com/embed/reporting/939e239c-a546-439b-a1d8-57e1e42782d3/page/LuBV" frameborder="0" allowfullscreen></iframe>
+
+                </div>
+              </Card.Body>
             </Card>
           </Col>
         </Row>
