@@ -137,7 +137,7 @@ function CustomFit() {
                           3.70,
                           4.61,
                           4.09,
-                          0,
+                          2.05,
                         ],
                       ],
                     }}
@@ -168,8 +168,8 @@ function CustomFit() {
               <Card.Footer>
                 <div className="stats">
                   <i className="fas fa-circle text-info"></i> 2020 Total Sales: $43,659,271<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $48,439,073<br />
-                  <i className="fas fa-check text-success"></i> Last updated 12/1/21 @ 9:00 a.m. EST
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $50,476,161<br />
+                  <i className="fas fa-check text-success"></i> Last updated 12/16/21 @ 9:00 a.m. EST
                 </div>
               </Card.Footer>
             </Card>
@@ -312,7 +312,7 @@ function CustomFit() {
                   <Col xs="9">
                   <div className="numbers">
                         <p className="card-category">2020 Return Rates (Same Range as 2021)</p>
-                        <Card.Title as="h4">Orders: 366,902<br />Returns: 42,830<br />Return Rate: 11.67%</Card.Title>
+                        <Card.Title as="h4">Orders: 383,601<br />Returns: 44,609<br />Return Rate: 11.6%</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -333,7 +333,7 @@ function CustomFit() {
                   <Col xs="9">
                   <div className="numbers">
                         <p className="card-category">2021 YTD Return Rates</p>
-                        <Card.Title as="h4">Orders: 432,127<br />Returns: 43,002<br />Return Rate: 9.95%</Card.Title>
+                        <Card.Title as="h4">Orders: 450,114<br />Returns: 44,850<br />Return Rate: 9.9%</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -356,8 +356,8 @@ function CustomFit() {
                   <Col xs="9">
                   <div className="numbers">
                         <p className="card-category">Georgia Boot</p>
-                        <Card.Title as="h5">YTD Sales: $4,033,472</Card.Title>
-                        <Card.Title as="h5">Return Rate: 8.98%</Card.Title>
+                        <Card.Title as="h5">YTD Sales: $4,195,878</Card.Title>
+                        <Card.Title as="h5">Return Rate: 9%</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -378,7 +378,7 @@ function CustomFit() {
                   <Col xs="9">
                     <div className="numbers">
                       <p className="card-category">Rocky</p>
-                      <Card.Title as="h5">YTD Sales: $3,508,048</Card.Title>
+                      <Card.Title as="h5">YTD Sales: $3,656,004</Card.Title>
                       <Card.Title as="h5">Return Rate: 9.5%</Card.Title>
                     </div>
                   </Col>
@@ -400,8 +400,8 @@ function CustomFit() {
                   <Col xs="9">
                     <div className="numbers">
                         <p className="card-category">Durango</p>
-                        <Card.Title as="h5">YTD Sales: $1,279,566</Card.Title>
-                        <Card.Title as="h5">Return Rate: 10.7%</Card.Title>
+                        <Card.Title as="h5">YTD Sales: $1,330,900</Card.Title>
+                        <Card.Title as="h5">Return Rate: 10.5%</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -424,8 +424,8 @@ function CustomFit() {
                   <Col xs="9">
                   <div className="numbers">
                         <p className="card-category">Lehigh Safety Shoes</p>
-                        <Card.Title as="h5">YTD Sales: $950,449</Card.Title>
-                        <Card.Title as="h5">Return Rate: 7.6%</Card.Title>
+                        <Card.Title as="h5">YTD Sales: $965,471</Card.Title>
+                        <Card.Title as="h5">Return Rate: 7.7%</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -446,8 +446,8 @@ function CustomFit() {
                   <Col xs="9">
                     <div className="numbers">
                         <p className="card-category">SlipGrips</p>
-                        <Card.Title as="h5">YTD Sales: $118,574</Card.Title>
-                        <Card.Title as="h5">Return Rate: 6.9%</Card.Title>
+                        <Card.Title as="h5">YTD Sales: $124,025</Card.Title>
+                        <Card.Title as="h5">Return Rate: 7%</Card.Title>
                     </div>
                   </Col>
                 </Row>

@@ -72,7 +72,7 @@ function RetailB2C() {
                           98.8,
                           110.0,
                           128.2,
-                          10.4,
+                          66.6,
                         ],
                       ],
                     }}
@@ -103,9 +103,9 @@ function RetailB2C() {
               <Card.Footer>
                 <div className="stats">
                   <i className="fas fa-circle text-info"></i> 2020 Total Sales: $1,084,112<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $1,292,593<br />
-                  <i className="fas fa-circle text-warning"></i> YTD Growth: 19.2%<br />
-                  <i className="fas fa-check text-success"></i> Last updated 12/1/21 @ 9:00 a.m. EST
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $1,348,763<br />
+                  <i className="fas fa-circle text-warning"></i> YTD Growth: 24.4%<br />
+                  <i className="fas fa-check text-success"></i> Last updated 12/16/21 @ 9:00 a.m. EST
                 </div>
               </Card.Footer>
             </Card>

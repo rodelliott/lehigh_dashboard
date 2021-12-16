@@ -138,7 +138,7 @@ function SlipGrips() {
                           8.8,
                           6.9,
                           5.3,
-                          0.7,
+                          3.6,
                         ],
                       ],
                     }}
@@ -169,8 +169,8 @@ function SlipGrips() {
               <Card.Footer>
                 <div className="stats">
                   <i className="fas fa-circle text-info"></i> 2020 Total Sales: $83,520<br />
-                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $118,268<br />
-                  <i className="fas fa-check text-success"></i> Last updated 12/1/21 @ 9:00 a.m. EST
+                  <i className="fas fa-circle text-danger"></i> 2021 YTD Sales: $121,194<br />
+                  <i className="fas fa-check text-success"></i> Last updated 12/16/21 @ 9:00 a.m. EST
                 </div>
               </Card.Footer>
             </Card>
@@ -211,7 +211,9 @@ function SlipGrips() {
                         "11/19",
                         "11/26",
                         "11/29",
-                        "12/1"
+                        "12/1",
+                        "12/3",
+                        "12/10"
                       ],
                       series: [    
                         [
@@ -237,7 +239,9 @@ function SlipGrips() {
                           20,
                           20,
                           19,
-                          29
+                          29,
+                          24,
+                          21
                         ],
                         [
                           4,
@@ -262,7 +266,9 @@ function SlipGrips() {
                           8,
                           7,
                           9,
-                          15
+                          15,
+                          5,
+                          6
                         ],
                       ],
                     }}
